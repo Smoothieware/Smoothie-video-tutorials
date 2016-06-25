@@ -16,18 +16,18 @@ The call to arms to the community can be found at : https://plus.google.com/u/0/
 
 ## List of videos
 
-* Introduction : What is it, where to find help, a few words on safety
-* Configuration basics
-* Providing logic power
-* Talking to the board via Ethernet
-* Talking to the board via USB ( Reserved by Samer Najia )
-* What are GPIO and what are they for ( Reserved by Mark Ingle )
-* About power supplies : Power and current ( Reserved by Samer Najia )
-* Providing power to stepper motor drivers ( Reserved by Mark Ingle )
-* Stepper motors ( Reserved by Samer Najia )
+* Introduction : What is it, where to find help, a few words on safety ( **Reserved by Arthur Wolf** )
+* Configuration basics ( **Reserved by Arthur Wolf** )
+* Providing logic power ( **Reserved by Arthur Wolf** )
+* Talking to the board via Ethernet ( **Reserved by Arthur Wolf** )
+* Talking to the board via USB ( **Reserved by Samer Najia** )
+* What are GPIO and what are they for ( **Reserved by Mark Ingle** )
+* About power supplies : Power and current ( **Reserved by Samer Najia** )
+* Providing power to stepper motor drivers ( **Reserved by Mark Ingle** )
+* Stepper motors ( **Reserved by Samer Najia** )
 * External stepper motor drivers
 * Planning and motion parameters
-* Endstops ( Reserved by Mark Ingle )
+* Endstops ( **Reserved by Mark Ingle** )
 * Delta kinematics
 * Providing power to Mosfets, and current limitations
 * Using a Mosfet for temperature control ( hotend, bed )

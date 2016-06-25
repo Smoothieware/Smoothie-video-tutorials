@@ -9,3 +9,41 @@ HELP EXTREMELY WELCOME. REALLY. DO IT NOW
 The original specification for this project can be found at : https://goo.gl/rhF0rO
 
 The call to arms to the community can be found at : https://plus.google.com/u/0/+ArthurWolf/posts/WTxuh5o3kWL
+
+## List of videos
+
+* Introduction : What is it, where to find help, a few words on safety
+* Configuration basics
+* Providing logic power
+* Talking to the board via Ethernet
+* Talking to the board via USB ( Reserved by Samer Najia )
+* What are GPIO and what are they for ( Reserved by Mark Ingle )
+* About power supplies : Power and current ( Reserved by Samer Najia )
+* Providing power to stepper motor drivers ( Reserved by Mark Ingle )
+* Stepper motors ( Reserved by Samer Najia )
+* External stepper motor drivers
+* Planning and motion parameters
+* Endstops ( Reserved by Mark Ingle )
+* Delta kinematics
+* Providing power to Mosfets, and current limitations
+* Using a Mosfet for temperature control ( hotend, bed )
+* Using a Mosfet for switching ( fan example )
+* Mosfet example : 1 hotend, 1 bed, and 1 fan
+* Using a SSR instead of a Mosfet
+* PID and PID auto-tuning
+* Extruders
+* Preventing 3D printer fires
+* Spindle
+* Work coordinate system/G54
+* Laser diode
+* Laser PSU
+* Connecting and configuring a panel
+* Basic probing
+* Levelling
+* Calibration
+* Configuration overrides
+* Troubleshooting : common general problems
+* Troubleshooting : EMI and ground loops
+
+
+

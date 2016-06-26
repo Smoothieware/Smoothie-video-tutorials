@@ -49,5 +49,7 @@ The call to arms to the community can be found at : https://plus.google.com/u/0/
 * Troubleshooting : common general problems
 * Troubleshooting : EMI and ground loops
 * Using the UART Serial port
+* Gcode basics ( G1, G2, G92, G91/90 )
+
 
 

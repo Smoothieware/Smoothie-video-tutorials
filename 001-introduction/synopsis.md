@@ -26,6 +26,7 @@ The video is composed of the following sections : 
 
 * What is Smoothie ?
 * Where to find information ?
+* What makes Smoothie special ?
 * Where to find help ?
 * A word on safety.
 
@@ -58,6 +59,17 @@ To use your machine, you will need to configure that firmware to fit your specif
 
 Both Smoothieboard and Smoothieware are Open-Source projects ( like for example Linux, Wikipedia or Arduino ), created and maintained by a community of volunteers. 
 You are free, and very welcome [https://github.com/Smoothieware/], to contribute to the project, use, read, edit and distribute the source code, as well as the board designs.
+
+## What makes Smoothie special ?
+
+There are other Open-Source CNC controller projects, and even more closed-source controller "products".
+
+The main things that set Smoothie aside are : 
+
+* It is meant to be general purpose : instead of being just for 3D printers or just for lasers, the code is designed to accomodate as many uses as possible. The aim is to bring several different communities together to create a stronger project, and so that work in one domain benefits the other domains.
+* It is meant to be easy to contribute to : the modular design aims at making it as easy as possible to "add new things" to Smoothie. This is true both for the hardware, and for the firmware. While as a normal user you might think that does not matter to you, it is the reason why the project is so feature-rich. It will actually probably take you some time to realize how many things Smoothie is capable of.
+* It is meant to be beginner-friendly : There is a strong emphasis in the project to try to make configuration and use as easy as possible ( no need for compilation for example ), as well as a huge documentation effort. The Smoothie wiki is the most complete documentation of any CNC controller project, by far.
+* Cutting-edge hardware : Smoothie tries to use the best hardware possible at any given time. This is true of some other projects too.
 
 ### Where to find information ?
 
@@ -96,7 +108,9 @@ The mailing lists {go to support mailing lists} allows you to subscribe to the m
 The google+ community {go to G+ community} is yet another way to get help by posting your questions and waiting for answers.
 
 It’s better if you do not post everywhere at once. Choose one way of asking your question, based on your preference, ask your question there, and wait for an answer. If you do not get an answer, or if nobody in the community knows the answer, then you can try asking in another place.
-Posting on the forum and the mailing list at the same time, for example, can be a waste of resources because you might get two persons helping you in parallel, when only one was needed. 
+Posting on the forum and the mailing list at the same time, for example, can be a waste of resources because you might get two persons helping you in parallel, when only one was needed.
+
+If you received help, please consider helping others in turn. That is how we keep the project going, we need your help. 
 
 ### A word on safety.
 

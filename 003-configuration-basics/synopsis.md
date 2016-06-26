@@ -15,6 +15,8 @@ Configuration, what it is and how to use it
 The description for this video should contain the following links : 
 
 * http://smoothieware.org/configuring-smoothie
+* https://wiki.gnome.org/Apps/Gedit
+* http://smoothieware.org/configuration-options
 
 Also add any other information that should be added
 
@@ -52,13 +54,15 @@ When the board turns on ( boots ), the firmware will execute, access that file, 
 
 This means that to configure everything, the only thing you need to do is access that “config” file, and edit it.
 
+The recommended application to edit the configuration file is Gedit [https://wiki.gnome.org/Apps/Gedit], and though any basic text editor should theorically do the job, please be warned that the very popular Notepad++ sometimes does weird things to the file.
+
 ### Configuration format
 
 If you open the configuration file with a text editor {do so}, you can see it looks like this.
 
 Each line is made out of a configuration option’s name, followed by it’s value {show}
 
-The file also contains comments. In the configuration file, anything after the character #, on a given line, will be ignored. Those are comments.
+The file can also contains comments. In the configuration file, anything after the character #, on a given line, will be ignored. Those are comments.
 You can see, for example, comments at the end of nearly each line.
 You can also see lines that start with #, and are a comment line.
 
@@ -66,6 +70,8 @@ Please note that some lines contain a configuration option and it’s value, but
 They will be ignored by Smoothie. 
 They are generally here as an example. 
 You can make the line “visible” again to Smoothie by removing the # at the beginning.
+
+You can use this to disable things without completely remove the line, or to add information to your config file for yourself to remember.
 
 The values for each configuration option, can be numbers {show}, true/false values {show}, GPIO pins {show} or strings of characters {show}, depending on the option.
 

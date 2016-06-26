@@ -35,9 +35,9 @@ Please here list and describe the various assets. They should be commited to git
 
 ## Video synopsis
 
-The microcontroller on the board, executes the firmware. To do so, it requires electrical power.
+The microcontroller on the board, executes the firmware, and talks to peripherals like motor drivers. It's acting as a simpler version of your computer. To do so, it requires electrical power.
 
-To move the motors you connect a 12 or 24v power supply ( VBB ) to the board. You could think that that is what will also power the microcontroller, but it isn’t so.
+To move the motors you connect a 12 or 24v power supply ( VBB/VMOT ) to the board. You could think that that is what will also power the microcontroller, but it isn’t so.
 
 The microcontroller requires 5V power, and therefore, is going to need another source of power ( 12 or 24v being much too high ).
 
@@ -46,7 +46,7 @@ There are different ways to provide 5V power to the board.
 For example, you can plug a USB cable into the Smoothieboard, and into your computer. When you do so, the computer will be providing 5V power to the board  {demonstrate board turning on}, and the microcontroller will be able to execute the firmware and control it’s peripherals.
 
 But there are situations in which you do not want to have a USB cable connected. 
-USB cables can be subject to much more problems than other means of controlling the board, and in some situations, will disconnect.
+USB cables can be subject to much more problems than other means of controlling the board, and in some situations, will have communication errors.
 
 If you do not want to use a USB cable, for example because you are using Ethernet, or a control Panel, then you need an alternative way of providing the 5V power to the board. 
 
@@ -54,7 +54,11 @@ One way to do this, is to provide 5V power via the 5V power input {show}. This i
 
 Another way is to install the voltage regulator on your board. This will take the 12 or 24v power provided to the stepper motors, and convert it to 5V. [http://smoothieware.org/voltageregulator]. It requires soldering the component {show}.
 
-These are the three ways to power your microcontroller. Once it is powered, you can start configuring and talking to it.
+These are the three ways to power your microcontroller. 
+
+You need to power the microcontroller using at least one of those methods.
+
+Once it is powered, you can start configuring and talking to it.
 
 ### Troubleshooting
 

@@ -4,15 +4,17 @@ Describe here what this video is about
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* What are inputs and what are outputs
+* The fact that they are software-controlled or software-read switches
+* The fact that any given pin can be one or the other, based on configuration
+* Some pins have special abilities on top of being GPIO : PWM, ADC, SPI, Serial, etc.
+* Smoothie allows you, for many things, to select any pin you want for the job, by editing config
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/pinout
 
 Also add any other information that should be added
 

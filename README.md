@@ -48,6 +48,6 @@ The call to arms to the community can be found at : https://plus.google.com/u/0/
 * Configuration overrides
 * Troubleshooting : common general problems
 * Troubleshooting : EMI and ground loops
-
+* Using the UART Serial port
 
 

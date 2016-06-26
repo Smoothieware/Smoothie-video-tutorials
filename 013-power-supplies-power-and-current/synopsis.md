@@ -5,6 +5,7 @@ How to determine the power requirements and power limits, to choose your power s
 ## This video will teach the following things : 
 
 * What is voltage, what is current, what is power
+* How do you do the math to figure one out by having the other two
 * What are power inputs and outputs
 * How to determine power requirements
 * How to determine power limits ( connectors, cables )

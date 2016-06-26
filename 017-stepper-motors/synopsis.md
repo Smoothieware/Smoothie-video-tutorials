@@ -4,15 +4,27 @@ Describe here what this video is about
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* You need to first watch the video about power supplies and stepper motor power input
+* What is a stepper motor, how does it work
+* What is a stepper motor driver, it controls a motor, smoothie controls it
+* How to correctly wire a stepper motor to the board ( pairs )
+* There is a limit at 2A, if you need more, you need to use an external driver
+* Which stepper motor driver output is which axis
+* Configure and test one motor at a time
+* Never connect or disconnect a motor while the power supply is powered on, it can kill the driver
+* How to configure current in config, and how to figure out the right value
+* How to setup the steps per mm
+* How to setup the direction
+* How to test each motor
+* What to do if it doesn't work
+
+This video is not about : providing power to the stepper motor power input, this is covered in another video
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/3d-printer-guide#toc3
 
 Also add any other information that should be added
 

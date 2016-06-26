@@ -1,18 +1,21 @@
 ## This video is about : 
 
-Describe here what this video is about
+How to provide power from a power supply, to the stepper motor power input, so that steppers can rotate
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* You need to watch the power supply video first
+* Motors need 12 or 24v power. 24v power is best but 12v is good enough
+* You need to provide enough power for your stepper's rating
+* You need to use a cable thick enough for the current rating 
+
+This video is not about : connecting, configuring and using a stepper motor
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/3d-printer-guide#toc3
 
 Also add any other information that should be added
 
@@ -22,10 +25,6 @@ The video is composed of the following sections : 
 
 * Introduction
 * Wiring
-* Configuration
-* Testing
-* Usage
-* Troubleshooting
 
 ## Assets
 

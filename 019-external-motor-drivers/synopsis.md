@@ -1,18 +1,26 @@
 ## This video is about : 
 
-Describe here what this video is about
+How to wire and use an external stepper motor driver
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* You need to have watched the video about integrated stepper motor drivers first
+* External drivers allow you to use beefier motors, or special ( 3-phase, servo ) motors
+* Once everything is wired and configured correctly, using the external driver is the same as using the on-board one
+* Drivers ( on-board and external ) are controlled via the step/dir interface
+* How step/dir works
+* Smoothieboard breaks out step/dir ( and allows any pin to be used )
+* You can wire the external driver to the Smoothieboard and control it via step/dir
+* You can do this either via positive signals, or via open-drain ( negative signals )
+* External drivers also require external power input.
+* How to wire a motor to the external driver
+* External drivers need their microstepping and current to be set. Example.
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/3d-printer-guide#toc25
 
 Also add any other information that should be added
 

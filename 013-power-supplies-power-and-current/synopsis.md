@@ -5,6 +5,8 @@ How to determine the power requirements and power limits, to choose your power s
 ## This video will teach the following things : 
 
 * What is voltage, what is current, what is power
+* (TODO) What are AC and DC power. Mains power can kill you, DC power can hurt you. Ask an adult for help
+* (TODO) How to provide mains power to your PSU
 * How do you do the math to figure one out by having the other two
 * What are power inputs and outputs
 * How to determine power requirements

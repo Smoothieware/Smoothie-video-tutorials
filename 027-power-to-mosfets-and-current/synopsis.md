@@ -8,12 +8,14 @@ NOTE : This video is for v2 not v1, on v2 there is a single mosfet power input
 
 * You must first watch the video about stepper motor power inputs as it covers a lot of the basics ( though we'll repeat a lot of it here so nothing is left unclear )
 * You must also first watch the video about power supplies
-* What is a mosfet ? ( it is a switch smoothie controls, go over this quick since we cover it in more detail later )
+* What is a mosfet ? ( it is a switch smoothie controls, it's on-board, it's powered by the mosfet power input, it has outputs you plug peripherals into )
 * Mosfets are generally used by the switch or temperaturecontrol modules ( fan, or heating ) but can also be used for weird things like selonoids, spindles, lamps etc.
 * Mosfets need power, this video is about how to provide them with power. Mosfets have a separate input from the stepper motors, so that less current goes through the connectors, and so you can use different voltages for each. 
 * Smoothie mosfets support 12V or 24V. You must choose which to use. You can't use 12V things with a 24V PSU or vice-versa, but there are 12 and 24V versions of most things ( mosfets, beds, fans )
+* Watts = Voltage * Current. How to figure out one from the other two. Also how to figure it out from resistance.
 * You need to do the sum of how much current all of your mosfet-controlled things use, and make sure the power supply is adequate ( provide an example )
-* You need to use a cable thick enough, and make sure you do not exceed the rating of the connectors
+* You need to use a cable thick enough, and make sure you do not exceed the rating of the connectors.
+* Provide a few examples
 
 ## Links 
 

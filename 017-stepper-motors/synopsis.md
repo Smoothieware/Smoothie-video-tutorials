@@ -14,6 +14,7 @@ Describe here what this video is about
 * Configure and test one motor at a time
 * Never connect or disconnect a motor while the power supply is powered on, it can kill the driver
 * How to configure current in config, and how to figure out the right value
+* How to calculate steps per mm
 * How to setup the steps per mm
 * How to setup the direction
 * How to test each motor

@@ -6,6 +6,7 @@ How to wire and use an external stepper motor driver
 
 * You need to have watched the video about integrated stepper motor drivers first
 * External drivers allow you to use beefier motors, or special ( 3-phase, servo ) motors
+* The internal drivers are really the same as the external ones, just glued to your board
 * Once everything is wired and configured correctly, using the external driver is the same as using the on-board one
 * Drivers ( on-board and external ) are controlled via the step/dir interface
 * How step/dir works

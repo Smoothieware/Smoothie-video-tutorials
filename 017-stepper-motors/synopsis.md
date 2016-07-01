@@ -6,9 +6,10 @@ Describe here what this video is about
 
 * You need to first watch the video about power supplies and stepper motor power input
 * What is a stepper motor, how does it work
-* What is a stepper motor driver, it controls a motor, smoothie controls it
-* How to correctly wire a stepper motor to the board ( pairs )
+* What is a stepper motor driver, it controls a motor, smoothie controls it, you control smoothie with gcodes
+* How to correctly wire a stepper motor to the board ( pairs, and how to figure them out : datasheet, resistance, touching wires and rotating )
 * There is a limit at 2A, if you need more, you need to use an external driver
+* The voltage rating of the stepper motors is not important, provide 12 or 24v
 * Which stepper motor driver output is which axis
 * Configure and test one motor at a time
 * Never connect or disconnect a motor while the power supply is powered on, it can kill the driver

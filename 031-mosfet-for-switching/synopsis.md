@@ -1,11 +1,10 @@
 ## This video is about : 
 
-Describe here what this video is about
+This video is about using the switch module to control a simple load ( like a fan ) via Gcode.
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* To watch this video you must have watched the gpio and power supply videos 
 
 ## Links 
 

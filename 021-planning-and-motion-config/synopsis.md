@@ -11,6 +11,7 @@ How to configure planning and motion control
 * How to tune junction deviation
 * What is the difference between axis and actuator maximum speeds
 * How to tune maximum speeds
+* If your machine is loosing steps, reduce acceleration, junction deviation and max speeds
 
 ## Links 
 
@@ -25,7 +26,6 @@ Also add any other information that should be added
 The video is composed of the following sections : 
 
 * Introduction
-* Wiring
 * Configuration
 * Testing
 * Usage

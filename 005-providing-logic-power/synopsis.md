@@ -13,8 +13,7 @@ How to get 5V into the Smoothieboard so that the microcontroller does things.
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/voltageregulator
 
 Also add any other information that should be added
 
@@ -53,6 +52,7 @@ If you do not want to use a USB cable, for example because you are using Etherne
 One way to do this, is to provide 5V power via the 5V power input {show}. This is a good option for example if your power supply has an available 5V output. 
 
 Another way is to install the voltage regulator on your board. This will take the 12 or 24v power provided to the stepper motors, and convert it to 5V. [http://smoothieware.org/voltageregulator]. It requires soldering the component {show}.
+NOTE : On the v2 and v2-pro, the vreg will be on-board, and on the v2-mini, there will be no spot for a vreg, so this needs to be modified to reflect that.
 
 These are the three ways to power your microcontroller. 
 
@@ -62,13 +62,15 @@ Once it is powered, you can start configuring and talking to it.
 
 ### Troubleshooting
 
-There is a series of 6 LEDs near the microcontroller {show}.
+There is a series of 7 LEDs near the microcontroller {show}.
 
-The red one turns on if VBB ( motor power ) is supplied.
+The red one turns on if VMOT ( motor power ) is supplied.
+
+The purple one turns on if VFET ( mosfet power ) is supplied
 
 The orange one turns on if the microcontroller is getting 3.3v power ( the 5V power is converted to 3.3v before getting to the microcontroller ).
 
-The 4 green LEDs indicate the status of the working microcontroller.
+The 4 green and blue LEDs indicate the status of the working microcontroller.
 
 If the Orange LED is not turning on, you are not providing power to the microcontroller.
 

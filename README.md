@@ -57,4 +57,6 @@ Ideas for additional videos : 
 * A tour of the different Smoothieboards and their peripherals/features
 * A short explanation of Smoothie's internals
 * A tour of various endstops and probes and how to use them all
-
+* Using the ESP8826 ( once that is actually implemented )
+* Connecting and using a CHIP or a Raspi
+* Tour of the various extension boards

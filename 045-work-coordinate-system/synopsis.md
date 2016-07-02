@@ -1,11 +1,10 @@
 ## This video is about : 
 
-Describe here what this video is about
+How the WCS works and how to use it
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* http://www.shapeoko.com/wiki/index.php/G-Code#Using_the_Work_Coordinate_Systems
 
 ## Links 
 

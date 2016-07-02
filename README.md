@@ -56,4 +56,5 @@ Gcode basics ( G1, G2, G92, G91/90 )|
 Ideas for additional videos : 
 * A tour of the different Smoothieboards and their peripherals/features
 * A short explanation of Smoothie's internals
+* A tour of various endstops and probes and how to use them all
 

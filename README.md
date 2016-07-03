@@ -6,9 +6,25 @@ In order for those videos to be shot, the text and all related information for t
 
 HELP EXTREMELY WELCOME. REALLY. DO IT NOW
 
-## Specification
+## The project
 
-The original specification for this project can be found at : https://goo.gl/rhF0rO
+The goal is to create extremely-beginner-friendly tutorials. Imagine you knew nothing about Smoothie, and even about CNC in general.
+
+You have never soldered anything, never wired cables, never even used a digital fabrication machine.
+
+But you still want to build a Smoothie-powered mahine. What kind of videos would you like to watch ? This project is that video series.
+
+However, the intent is not to keep it at the basics, but to also go into more advanced subjects, so that this is useful to as many people as possible.
+
+After watching the series, one should be able to install and use a Smoothieboard in any kind of machine ( 3D printer, laser, CNC router ).
+
+The videos will also be integrated into the text-based documentation ( smoothieware.org ), which is very complete, but can be a bit hard to digest.
+
+## Youtube
+
+The end goal is to finance Thomas Sanladerer ( https://www.patreon.com/toms3dp ) to produce the series. If you are potential sponsor of that work, don't hesitate to contact us.
+
+## Specification
 
 The call to arms to the community can be found at : https://plus.google.com/u/0/+ArthurWolf/posts/WTxuh5o3kWL
 

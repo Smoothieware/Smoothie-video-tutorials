@@ -16,6 +16,7 @@ NOTE : This video is for v2 not v1, on v2 there is a single mosfet power input
 * You need to do the sum of how much current all of your mosfet-controlled things use, and make sure the power supply is adequate ( provide an example )
 * You need to use a cable thick enough, and make sure you do not exceed the rating of the connectors.
 * Provide a few examples
+* General wiring : How to properly connect a wire to a screw terminal
 
 ## Links 
 

@@ -10,6 +10,7 @@ Using a mosfet output and a thermistor input to control the temperature of a hea
 * Input : Explain what is a thermistor ( it's resistance changes based on it's temperature, different types change differently so we need to tell smoothie what type it is )
 * There is a special type of input ( thermistor input ) on Smoothieboards named T1, T2, etc ... [show]
 * You wire the thermistor to the thermistor input [show]
+* General wiring : How to properly connect a wire to a screw terminal
 * Output : You must choose a mosfet that is adequate for your load ( fan, hotend, bed ), based on current
 * Make sure the wiring is good : good contact, no shorts ( dangerous )
 * Make sure the mosfets are getting power and the current is adequate ( see mosfet power input video )

@@ -8,6 +8,8 @@ How to provide power from a power supply, to the stepper motor power input, so t
 * Motors need 12 or 24v power. 24v power is best but 12v is good enough
 * You need to provide enough power for your stepper's rating
 * You need to use a cable thick enough for the current rating 
+* Connect wires to PSU, connect wires to Smoothie VMOT [show]
+* Polarity is important, double check and test 
 
 This video is not about : connecting, configuring and using a stepper motor
 
@@ -42,5 +44,5 @@ Here add the text for this specific video
 
 If you contribute to this video in any way, please add your name to this list : 
 
-* Your name here
+* Arthur Wolf
 

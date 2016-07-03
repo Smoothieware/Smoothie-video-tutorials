@@ -12,6 +12,7 @@ This video is about using the switch module to control a simple load ( like a fa
 * Make sure the wiring is good : good contact, no shorts ( dangerous )
 * Fans require you have a diode across the output or the fan can burn the mosfet. Some v2 boards have it on-board, others require you add it yourself in your wiring.
 * Make sure the mosfets are getting power and the current is adequate ( see mosfet power input video )
+* If your load is too high, or is AC, use a SSR [see video]
 * Configuration : enabling the module
 * Telling Smoothie what gcode turn the module on and off
 * Telling Smoothie on what mosfet the load is connected

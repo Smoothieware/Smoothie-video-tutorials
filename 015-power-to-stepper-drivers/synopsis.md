@@ -38,11 +38,20 @@ Please here list and describe the various assets. They should be commited to git
 
 ## Video synopsis
 
-Here add the text for this specific video
+Putting some thought into powering your stepper motors is time well spent.  The stepper motor system consist of a stepper motor driver for each motor.  Stepper motors are pretty much useless without a stepper driver.  Most stepper drivers can be powered with 12 volt or 24 volt.  A 12 volt power supply will provide enough power to get you started and support standard automation requirements.  Once you are more familiar with powering your build you should take some time to review 24 volt power supply.  Here are some of the benefits gained using 24 volts. {add link to 12/24 volt comparison benefits}
+
+Its also important to use the correct size wire that will connect the stepper motor driver to the stepper motor.  Having wires that are too small will cause the wires to become hot and it could turn into a safety issue.  For a typical NEMA 17 stepper rated at 1.5 AMPS per phase a cable size of 22AWG should work fine to get started.  Just remember adjust your cable size if power requirements change for your motor or power supply
+
+{show backend of a 12v PSU with 14 AWG}
+{show VMOT with same wires connected to PSU}
+
+Explain polarity and how to test
+
 
 ## Authors
 
 If you contribute to this video in any way, please add your name to this list : 
 
 * Arthur Wolf
+* Mark Ingle
 

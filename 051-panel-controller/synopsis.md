@@ -1,6 +1,8 @@
 ## This video is about : 
 
-Describe here what this video is about
+How to wire and configure a RRD GLCD to a Smoothieboard.
+
+NOTE : This synopsis was initially imagined for the v1 boards, but the tutorial series is now for the v2 boards, so not sure how much sense it makes having this video in the series.
 
 ## This video will teach the following things : 
 

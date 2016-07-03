@@ -1,18 +1,24 @@
 ## This video is about : 
 
-Describe here what this video is about
+Using a Solid State Relay instead of a Mosfet for temperaturecontrol or switching
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* Before watching this video you must have watched the mosfets series, and the one about GPIO
+* A Solid State relay is like a mosfet, but it can control higher loads, and some can control AC loads instead of DC ones
+* A SSR is like a normal relay, but without the mechanical part and the noise
+* Wiring : You need to use a GPIO pin ( any that is free ) to control the SSR [example]
+* Show how to control an AC load [example] and how to control a DC load [example]
+* Configuration for switch module : Show how to change a switch module to use a free pin
+* Configuration for temperature control : same thing
+* Temp control also means you need to reduce the pwm frequency, or use bang-bang, show examples ( SSRs generally want 20Hz max )
+* Testing : How to test the SSR works independently of the Smoothieboard control by wiring +/- to 5V/gnd on the board
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/3d-printer-guide#toc26
 
 Also add any other information that should be added
 
@@ -43,5 +49,5 @@ Here add the text for this specific video
 
 If you contribute to this video in any way, please add your name to this list : 
 
-* Your name here
+* Arthur Wolf
 

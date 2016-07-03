@@ -1,11 +1,14 @@
 ## This video is about : 
 
-Describe here what this video is about
+What is calibration and how you configure and use it
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* Intro : Deltas working correctly require radius, arm length and endstop position to be known very precisely
+* Unfortunately, there is only so much you can do by hand. Thankfully, there is math
+* Calibration probes the bed, does clever math, and figures out the exact value of those parameters
+* Configuration : How to configure calibration
+* Testing and usage : How to [show]
 
 ## Links 
 
@@ -43,5 +46,5 @@ Here add the text for this specific video
 
 If you contribute to this video in any way, please add your name to this list : 
 
-* Your name here
+* Arthur Wolf
 

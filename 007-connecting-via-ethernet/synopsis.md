@@ -46,7 +46,7 @@ Please here list and describe the various assets. They should be commited to git
 
 There are two main ways of communicating with your Smoothieboard : USB and Ethernet.
 
-Ethernet [http://smoothieware.org/network] is very much recommended, since it is much less likely to have disconnection troubles, compared to USB. Also, it doesn’t require installing a driver on Windows like USB does.
+Ethernet [http://smoothieware.org/network] is very much recommended, since it is much less likely to have disconnection troubles, compared to USB, and though USB disconnections are rare, they happen to a few users. Also, it doesn’t require installing a driver on Windows like USB does.
 
 It does however require that you have the necessary equipment to have a wired network ( typically a router ).
 
@@ -56,13 +56,15 @@ Using the Ethernet connection on your Smoothieboard provides you with several fe
 
 The most important one is the Web server : it allows the Smoothieboard to "serve" web interfaces and applications to you, which you can then use in your favorite browser, on your computer or on your phone, to control your machine {show}.
 
-A secondary feature is the telnet server, which allows you to connect to the board using a telnet terminal, much like you would with a serial terminal.
+A secondary feature is the telnet server, which allows you to connect to the board using a telnet terminal, much like you would with a serial terminal. {show}, also allows some host programs like Pronterface or Visicut to connect
 
 ### Wiring
 
 To use Ethernet, you first need to get an Ethernet cable, and connect the Smoothieboard to your local network.
 
 This is the same as connecting a new computer or a new 2D printer to your local network {show cable connection} : Plug the cable into the Smoothieboard on one end, and into the router on the other end.
+
+Note that you can't connect the Smoothieboard directly to your computer, at least not using a normal Ethernet cable. You do need a router.
 
 ### Configuration
 
@@ -72,7 +74,7 @@ This is done by editing the configuration file, and changing the network.enable 
 
 Once this is done, reset the board. The board will now automatically connect to your network, and obtain an IP address via DHCP.
 
-All computers and peripherals on your local network have an IP address. In order to talk to your Smoothieboard, you need to find it’s current address.
+All computers and peripherals on your local network have an IP address. In order to talk to your Smoothieboard, you need to find it’s current address ( that the router automatically assigned it )
 
 There are several ways of doing so : 
 
@@ -101,7 +103,7 @@ If you know the IP address for your Smoothieboard, but the board is not answerin
 
 If none of these work, try contacting the community.
 
-If you configured the board for DHCP and it is not getting an answer, try using a different router if possible. A few router models have been know not to work with Smoothie.
+If you configured the board for DHCP and it is not getting an IP assigned at all, try using a different router if possible. A few router models have been know not to work with Smoothie.
 
 ## Authors
 

@@ -1,18 +1,21 @@
 ## This video is about : 
 
-Describe here what this video is about
+Explaining what PID is, what it is used for, and how to tune it.
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* Introduction : Explain what PID is : start with bang-bang as a simple example, then explain why we need PID and how it works.
+* Show what badly configured PID looks like and what well configured PID looks like
+* Configuration : How to set the PID parameters in the config file
+* How to live-tune the PID parameters ( using M301 )
+* You need to tune the parameters, but don't need to do so by hand : explain M303 PID auto-tuning, [show example of it running]
+* Troubleshooting : Explain how to fine-tune some common PID problems ( http://smoothieware.org/temperaturecontrol#toc15 )
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/temperaturecontrol#toc13
 
 Also add any other information that should be added
 
@@ -21,10 +24,7 @@ Also add any other information that should be added
 The video is composed of the following sections : 
 
 * Introduction
-* Wiring
 * Configuration
-* Testing
-* Usage
 * Troubleshooting
 
 ## Assets
@@ -43,5 +43,5 @@ Here add the text for this specific video
 
 If you contribute to this video in any way, please add your name to this list : 
 
-* Your name here
+* Arthur Wolf
 

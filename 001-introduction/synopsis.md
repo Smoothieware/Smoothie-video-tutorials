@@ -68,7 +68,7 @@ The main things that set Smoothie aside are : 
 
 * It is meant to be general purpose : instead of being just for 3D printers or just for lasers, the code is designed to accomodate as many uses as possible. The aim is to bring several different communities together to create a stronger project, and so that work in one domain benefits the other domains.
 * It is meant to be easy to contribute to : the modular design aims at making it as easy as possible to "add new things" to Smoothie. This is true both for the hardware, and for the firmware. While as a normal user you might think that does not matter to you, it is the reason why the project is so feature-rich. It will actually probably take you some time to realize how many things Smoothie is capable of.
-* It is meant to be beginner-friendly : There is a strong emphasis in the project to try to make configuration and use as easy as possible ( no need for compilation for example ), as well as a huge documentation effort. The Smoothie wiki is the most complete documentation of any CNC controller project, by far.
+* It is meant to be beginner-friendly : There is a strong emphasis in the project to try to make configuration and use as easy as possible ( no need for compilation for example ), as well as a huge documentation effort. The Smoothie wiki is the most complete documentation of any CNC controller project, by far, go look at it.
 * Cutting-edge hardware : Smoothie tries to use the best hardware possible at any given time. This is true of some other projects too.
 
 ### Where to find information ?

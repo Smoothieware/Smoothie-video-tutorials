@@ -1,18 +1,23 @@
 ## This video is about : 
 
-Describe here what this video is about
+How to configure planning and motion control
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* What is acceleration and why we need it
+* What is junction deviation and why we need it
+* What is planning and why we need it
+* How to tune acceleration
+* How to tune junction deviation
+* What is the difference between axis and actuator maximum speeds
+* How to tune maximum speeds
+* If your machine is loosing steps, reduce acceleration, junction deviation and max speeds
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/motion-control
 
 Also add any other information that should be added
 
@@ -21,7 +26,6 @@ Also add any other information that should be added
 The video is composed of the following sections : 
 
 * Introduction
-* Wiring
 * Configuration
 * Testing
 * Usage

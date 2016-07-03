@@ -1,18 +1,29 @@
 ## This video is about : 
 
-Describe here what this video is about
+This video is about using the switch module to control a simple load ( like a fan ) via Gcode.
 
 ## This video will teach the following things : 
 
-* One thing
-* Another thing
+* To watch this video you must have watched the gpio and power supply videos 
+* You need to know what is a mosfet and how to power it ( from the basic mosfet video )
+* Switch is a general purpose module for mapping gcodes and inputs. You can configure as many as you want. You can cause a gcode to control an output, cause an input to trigger a gcode, or even cause an input to control an output. Here we will study how to configure a gcode to control a fan.
+* You use gcodes to tell the module what to do, and it turns the fan on or off by using a pin to control the mosfet
+* Output : You must choose a mosfet that is adequate for your load ( fan, hotend, bed ), based on current
+* Make sure the wiring is good : good contact, no shorts ( dangerous )
+* Fans require you have a diode across the output or the fan can burn the mosfet. Some v2 boards have it on-board, others require you add it yourself in your wiring.
+* Make sure the mosfets are getting power and the current is adequate ( see mosfet power input video )
+* If your load is too high, or is AC, use a SSR [see video]
+* Configuration : enabling the module
+* Telling Smoothie what gcode turn the module on and off
+* Telling Smoothie on what mosfet the load is connected
+* Testing and usage: Using gcode to control the load
+* Troubleshooting : What to do if it doesn't work
 
 ## Links 
 
 The description for this video should contain the following links : 
 
-* A link
-* Another link
+* http://smoothieware.org/switch
 
 Also add any other information that should be added
 
@@ -43,5 +54,5 @@ Here add the text for this specific video
 
 If you contribute to this video in any way, please add your name to this list : 
 
-* Your name here
+* Arthur Wolf
 

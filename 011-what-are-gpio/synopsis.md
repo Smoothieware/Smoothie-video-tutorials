@@ -49,5 +49,5 @@ In order to do monitoring and control a connection is required to a hardware dev
 
 If you contribute to this video in any way, please add your name to this list : 
 
-* Your name here
+* Mark Ingle
 

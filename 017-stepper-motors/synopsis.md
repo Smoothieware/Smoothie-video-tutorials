@@ -29,6 +29,7 @@ This video is not about : providing power to the stepper motor power input, this
 The description for this video should contain the following links : 
 
 * http://smoothieware.org/3d-printer-guide#toc3
+* http://homepage.cs.uiowa.edu/~jones/step/
 
 Also add any other information that should be added
 

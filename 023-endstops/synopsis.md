@@ -46,11 +46,16 @@ Please here list and describe the various assets. They should be commited to git
 
 ## Video synopsis
 
-Here add the text for this specific video
+In order to implement position control for most automated systems there has to be a way to determine “the current position” of the object that is being controlled.  These physical limits can be the end of a rail, the edge of a table or wall.The first step in controlling position is to virtualize the actual physical limits and boundaries.  Depending on the process or application there are many ways to do this.  Most of the time to define boundaries a piece of hardware is used called an Endstop.  And it does exactly what it is called……”You are at the end…STOP!!”  Usually an endstop has a sensor of some kind that is “triggered” by physical touch or proximity of a moving object.  Depending on the requirement the object may stop, bounce back into place, or move in the other direction which may also have an endstop waiting to be triggered.  The endstop itself is nothing more than a relay switch anchored down tightly.  But it serves a very important function.  Before any type of position control can take place the control software must have awareness of physical limits to carry out a task.
+
+From a logical perspective an endstop provides a means to define coordinates of an axis simply by knowing the starting point (or ending point) for the axis.  Once the starting location is physically determine it can be used as reference for movements along the axis.  The distance the object travels on the axis can be limited by software or another endstop.  Having the starting and end points defined then makes it easy to control the object up, down, left, and right with certainty and accuracy.  Endstops are so important that they are “touched” each time a job is ran on automated systems.
+
+There is also an assumption that all things remain constant for the logical control to work every time.  If the controller thinks that 150 ticks will move the object three inches it's important that there isn’t any slips or hang during the movement.
+
 
 ## Authors
 
 If you contribute to this video in any way, please add your name to this list : 
 
 * Arthur Wolf
-
+* Mark Ingle

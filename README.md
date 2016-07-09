@@ -74,3 +74,4 @@ Ideas for additional videos : 
 * Using the ESP8826 ( once that is actually implemented )
 * Connecting and using a CHIP or a Raspi
 * Tour of the various extension boards
+* How to protect a board with a fuse

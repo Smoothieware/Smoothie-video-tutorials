@@ -41,10 +41,10 @@ What are GPIO and what are they for |( **Reserved by Mark Ingle** )
 About power supplies : Power and current |( **Reserved by Samer Najia** )
 Providing power to stepper motor drivers |( **Reserved by Mark Ingle** )
 Stepper motors |( **Reserved by Samer Najia** )
-External stepper motor drivers|
+External stepper motor drivers|( **Reserved by Guy Snover** )
 Planning and motion parameters|
 Endstops |( **Reserved by Mark Ingle** )
-Delta kinematics|
+Delta kinematics|( **Reserved by Guy Snover** )
 Providing power to Mosfets, and current limitations|
 Using a Mosfet for temperature control ( hotend, bed )|
 Using a Mosfet for switching ( fan example )|

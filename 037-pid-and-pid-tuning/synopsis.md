@@ -37,11 +37,21 @@ Please here list and describe the various assets. They should be commited to git
 
 ## Video synopsis
 
-Here add the text for this specific video
+### Introduction
 
+TBD
+
+### Configuration
+
+TBD
+
+### Troubleshooting
+
+TBD
 ## Authors
 
 If you contribute to this video in any way, please add your name to this list : 
 
 * Arthur Wolf
+* Bill Schwanitz
 

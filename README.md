@@ -75,3 +75,4 @@ Ideas for additional videos : 
 * Connecting and using a CHIP or a Raspi
 * Tour of the various extension boards
 * How to protect a board with a fuse
+* Quick rundown of all you need to do to get a Smoothie to work, without details, just to get an idea of the process

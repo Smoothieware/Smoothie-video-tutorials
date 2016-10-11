@@ -11,6 +11,7 @@ In this video we learn what endstops are, and what we can use them for in Smooth
 * It is constituted of + and -, and a signal line ( that is read by Smoothie )
 * Explain what is NC and NO, and what are pullups and pulldowns.
 * Explain how to wire a NC endstop ( classical case )
+* Explain how to wire "powered" endstops, like hall-effect and optical
 * How to configure homing in the config file ( for a cartesian, simplest case )
 * Testing your endstops ( M119 )
 * Using the G28 command
